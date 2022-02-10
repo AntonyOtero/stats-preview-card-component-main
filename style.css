@@ -47,24 +47,15 @@ body, h1, p {
 .header {
   position: relative;
   margin-bottom: 9px;
-}
-
-.image-mobile {
-  width: 100%;
+  background: var(--color-accent);
   border-radius: 8px 8px 0 0;
 }
 
-.image-desktop {
-  display: none;
-}
-
-.mask{
-  position: absolute;
-  top: 0;
-  left: 0;
+.header-image {
   width: 100%;
   height: 240px;
-  background: var(--color-accent);
+  background-image: url(./images/image-header-mobile.jpg);
+  background-size: cover;
   mix-blend-mode: multiply;
   opacity: 0.75;
 }
@@ -139,19 +130,12 @@ body, h1, p {
 
   .header {
     margin-bottom: 0;
-  }
-
-  .mask {
-    height: 446px;
-  }
-
-  .image-mobile {
-    display: none;
-  }
-
-  .image-desktop {
-    display: block;
     border-radius: 0 8px 8px 0;
+  }
+
+  .header-image {
+    height: 446px;
+    background-image: url(./images/image-header-desktop.jpg);
   }
 
   .content,
