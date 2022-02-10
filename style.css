@@ -4,7 +4,7 @@
   /* Colors */
   --color-main: hsl(233, 47%, 7%);
   --color-card: #1B1937;
-  --color-accent: hsl(277, 64%, 61%);
+  --color-accent: #AB5CDB;
   --color-white: #ffffff;
   --color-white-trans-1: #ffffff75;
   --color-white-trans-2: #ffffff60;
@@ -26,6 +26,26 @@ body {
   background: var(--color-card);
   border-radius: 8px;
   box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+}
+
+.header {
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.header .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 240px;
+  background: var(--color-accent);
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .attribution { font-size: 11px; text-align: center; }
