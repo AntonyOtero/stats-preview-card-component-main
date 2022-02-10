@@ -1,2 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+  /* Colors */
+  --color-main: hsl(233, 47%, 7%);
+  --color-card: hsl(244, 38%, 16%);
+  --color-accent: hsl(277, 64%, 61%);
+  --color-white: #ffffff;
+  --color-white-trans-1: #ffffff75;
+  --color-white-trans-2: #ffffff60;
+  /* Typography */
+  --font-inter: font-family: 'Inter', sans-serif;
+  --font-lexend-deca: font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  font-size: 15px;
+  background: var(--color-main);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
