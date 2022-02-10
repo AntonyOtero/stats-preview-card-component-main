@@ -20,7 +20,7 @@ body {
   background: var(--color-main);
 }
 
-h1, p {
+body, h1, p {
   margin: 0;
 }
 
@@ -94,5 +94,15 @@ h1, p {
   letter-spacing: 1px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  width: 100%;
+  padding: 24px 0;
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
